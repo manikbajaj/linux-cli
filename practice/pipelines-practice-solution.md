@@ -1,3 +1,5 @@
+# Solution: Mastering Pipelines and Filters
+
 ### Solution for Task 1: Simple Pipeline
 
 **Objective**: Use the `ls` command and pipe its output to `wc` to count the number of files and directories in the current directory.

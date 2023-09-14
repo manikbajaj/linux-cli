@@ -1,4 +1,4 @@
-# Linux Command Line Practice Exercise: Mastering Redirection
+# Practice Exercise: Mastering Redirection
 
 ## Objective
 

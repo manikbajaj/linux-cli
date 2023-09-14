@@ -1,4 +1,4 @@
-# Linux Command Line Practice Exercise: Mastering Pipelines and Filters
+# Practice: Mastering Pipelines and Filters
 
 ## Objective
 

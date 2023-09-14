@@ -1,3 +1,5 @@
+# Solution: Mastering Redirection
+
 ### Solution for Task 1: Redirecting stdout
 
 **Objective**: Redirect the output of the `ls` command to a file named `filelist.txt`.
