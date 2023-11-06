@@ -1,4 +1,4 @@
-# Practice: Searching for Files and Directories Part 1
+# Practice: Searching for Files and Directories Part 2
 
 ## Objective
 
