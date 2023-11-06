@@ -1,4 +1,4 @@
-# Solutions: Searching for Files and Directories Part 1
+# Solution: Searching for Files and Directories Part 1
 
 Below you will find the solutions to the practice tasks given in the exercise. Remember that the output can vary based on the state and the configuration of your file system.
 
