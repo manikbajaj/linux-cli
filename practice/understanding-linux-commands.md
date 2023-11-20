@@ -26,9 +26,9 @@ This practice exercise is designed to help you consolidate your understanding of
 
 ### Getting Help and Documentation
 
-3. **Question 3**: Use the `help` command to find out what the `-r` option does in the `cd` built-in command.
+3. **Question 3**: Use the `help` command to find out what the `-L` option does in the `cd` built-in command.
 
-4. **Question 4**: Open the `man` page for the `tar` command and find out what the `-z` option does.
+4. **Question 4**: Open the `man` page for the `tar` command and find out what the `-r` option does.
 
 5. **Question 5**: Use the `apropos` command to search for commands related to 'directory'. List at least three commands that are returned.
 
@@ -39,12 +39,6 @@ This practice exercise is designed to help you consolidate your understanding of
 7. **Question 7**: Open the `info` page for the `cp` command and navigate to the section that describes the `-R` option.
 
 8. **Question 8**: Use the `info` command to find out how you can navigate to the "Next" node while browsing an `info` document.
-
----
-
-## Bonus Question
-
-9. **Bonus**: Use the `info` command to save the full documentation of the `ls` command, including all its subnodes, to a text file named `ls_info.txt`.
 
 ---
 

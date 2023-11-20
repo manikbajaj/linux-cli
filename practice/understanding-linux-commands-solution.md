@@ -76,14 +76,4 @@
 
    Once inside the `info` page for `info`, navigate or search to find how to move to the "Next" node.
 
-## Bonus Question
-
-9. **Bonus Solution**: To save the full documentation of the `ls` command to a text file:
-
-   ```bash
-   info ls --subnodes -o ls_info.txt
-   ```
-
-   This will save the entire documentation of `ls`, including all its subnodes, to a text file named `ls_info.txt`.
-
 ---
