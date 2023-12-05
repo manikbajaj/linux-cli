@@ -16,7 +16,7 @@
 
 3. **Solution to Question 3**:
    - Execute any three commands, like `ls`, `pwd`, and `date`.
-   - Press `Ctrl + O`.
+   - Press `up arrow`.
    - You'll notice that the last command (`date` in this example) will execute again, and the shell will automatically prepare the second last command (`pwd` here) for execution.
 
 ---
