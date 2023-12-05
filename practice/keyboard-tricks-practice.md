@@ -18,7 +18,7 @@ The aim of this exercise is to provide hands-on practice with various aspects of
 
 2. **Question 2**: Navigate through your command history using the Up and Down arrows. Choose a command and execute it.
 
-3. **Question 3**: Execute any three commands. Use `Ctrl + O` to cycle through and execute these commands again. Observe what happens.
+3. **Question 3**: Execute any three commands. Use `up arrow` to cycle through and execute these commands again. Observe what happens.
 
 ---
 
