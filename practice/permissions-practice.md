@@ -41,26 +41,3 @@ echo "This is inside the subdirectory" > sub_directory/sub_file.txt
 
 1. For `sub_directory/sub_file.txt`, set the permissions so that the owner can read, write, and execute; the group can read and execute; others can only read.
 2. Confirm the permissions were updated.
-
-## Exercise 3: `umask`
-
-### Task 1: Set a New `umask`
-
-1. Check the current `umask` setting by running `umask`.
-2. Set a new `umask` so that new files will have `rw-r-----` and directories will have `rwxr-x---`.
-3. Confirm the new `umask` by running `umask` again.
-
-### Task 2: Create a New File and Directory
-
-1. Create a new file and directory:
-
-   ```bash
-   echo "This is a new file." > new_file.txt
-   mkdir new_directory
-   ```
-
-2. Check their permissions using `ls -l` and confirm they match the intended permissions set by `umask`.
-
-## Bonus: Reset to Default
-
-After you've completed the exercises, reset the `umask` to your system's default or as per your requirement.
