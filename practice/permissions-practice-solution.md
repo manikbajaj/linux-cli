@@ -68,7 +68,7 @@ echo "This is inside the subdirectory" > sub_directory/sub_file.txt
 2. Use `chmod` in numeric mode to give only the owner execute permissions:
 
    ```bash
-   chmod u+x file1.txt
+   chmod 744 file1.txt
    ```
 
 3. Verify using `ls -l`.
@@ -78,7 +78,7 @@ echo "This is inside the subdirectory" > sub_directory/sub_file.txt
 1. To set the permissions so that the owner can read, write, and execute; the group can read and execute; others can only read, use:
 
    ```bash
-   chmod 755 sub_directory/sub_file.txt
+   chmod 754 sub_directory/sub_file.txt
    ```
 
 2. Confirm the permissions were updated:
