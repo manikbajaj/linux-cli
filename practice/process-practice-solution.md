@@ -39,87 +39,47 @@ This will show the state of the `gedit` process. For example, if the state is `S
 
 ## **Controlling Process with Signals:**
 
-### Task:
-
-1. Start a `gedit` process.
-2. Identify the PID of the `gedit` process.
-3. Send a `SIGSTOP` signal to pause the `gedit` process.
-4. Confirm if the `gedit` process is stopped.
-5. Send a `SIGCONT` signal to resume the `gedit` process.
-6. Confirm if the `gedit` process has resumed.
-7. Finally, terminate the `gedit` process using the appropriate signal.
-
 ### Solution:
 
 ```bash
-$ gedit &
+$ sleep 300
 ```
 
-This starts a `gedit` process in the background.
+Find the PID of the process
 
 ```bash
-$ pgrep gedit
+ps u 
 ```
 
-This command finds the PID of the `gedit` process.
-
+This command sends a `SIGSTOP` signal to pause the `sleep` process.
 ```bash
 $ kill -STOP [PID]
 ```
 
-This command sends a `SIGSTOP` signal to pause the `gedit` process.
+
+This will confirm whether the `sleep` process is stopped (T state).
 
 ```bash
-$ ps x | grep gedit
+$ ps x | grep sleep
 ```
 
-This will confirm whether the `gedit` process is stopped (T state).
+This command sends a `SIGCONT` signal to resume the `sleep` process.
 
 ```bash
 $ kill -CONT [PID]
 ```
 
-This command sends a `SIGCONT` signal to resume the `gedit` process.
+This will confirm whether the `sleep` process has resumed.
 
 ```bash
-$ ps x | grep gedit
+$ ps x | grep sleep
 ```
 
-This will confirm whether the `gedit` process has resumed.
 
+This command will terminate the `sleep` process using the `SIGTERM` signal.
 ```bash
 $ kill -TERM [PID]
 ```
 
-This command will terminate the `gedit` process using the `SIGTERM` signal.
 
-## **`pstree` Command:**
 
-### Task:
-
-1. Display the tree of processes.
-2. Identify any process with its PID and determine its parent and child processes.
-
-### Solution:
-
-```bash
-$ pstree -p
-```
-
-This command displays a tree of processes, and with the `-p` option, it shows the PID of each process.
-
-## **`xload` Command:**
-
-### Task:
-
-1. Use the `xload` command to monitor system load. Modify the scale and update interval of the graph.
-
-### Solution:
-
-```bash
-$ xload -scale 2 -update 1
-```
-
-This command starts `xload` with a modified scale and update interval. The `-scale 2` option changes the scale of the graph, and the `-update 1` option changes the update interval to 1 second.
-
-This solution is a reference for completing the given tasks and achieving a proper understanding of managing processes in Linux. Students should execute these commands practically to gain hands-on experience.
