@@ -18,19 +18,11 @@ This exercise will help students reinforce their understanding of Linux commands
 
 ## **Controlling Process with Signals:**
 
-    1.  Start a `gedit` process.
-    2.  Identify the PID of the `gedit` process.
-    3.  Send a `SIGSTOP` signal to pause the `gedit` process.
-    4.  Confirm if the `gedit` process is stopped.
-    5.  Send a `SIGCONT` signal to resume the `gedit` process.
-    6.  Confirm if the `gedit` process has resumed.
-    7.  Finally, terminate the `gedit` process using the appropriate signal.
+    1.  Start a `sleep` process.
+    2.  Identify the PID of the `sleep` process.
+    3.  Send a `SIGSTOP` signal to pause the `sleep` process.
+    4.  Confirm if the `sleep` process is stopped.
+    5.  Send a `SIGCONT` signal to resume the `sleep` process.
+    6.  Confirm if the `sleep` process has resumed.
+    7.  Finally, terminate the `sleep` process using the appropriate signal.
 
-## **`pstree` Command:**
-
-    1.  Display the tree of processes.
-    2.  Identify any process with its PID and determine its parent and child processes.
-
-## **`xload` Command:**
-
-    1.  Use the `xload` command to monitor system load. Modify the scale and update interval of the graph.
