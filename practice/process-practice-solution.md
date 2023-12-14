@@ -31,11 +31,11 @@ This command displays all the processes in a user-friendly format, listing detai
 ### Solution:
 
 ```bash
-$ gedit &
-$ ps x | grep gedit
+$ sleep 300
+$ ps x | grep sleep
 ```
 
-This will show the state of the `gedit` process. For example, if the state is `S`, it means the process is sleeping.
+This will show the state of the `sleep` process. For example, if the state is `S`, it means the process is sleeping.
 
 ## **Controlling Process with Signals:**
 
