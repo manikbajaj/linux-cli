@@ -13,8 +13,6 @@ nano ~/.bashrc
 Navigate to the end of the file and add the following lines. Remember to add comments to describe each change for future reference.
 
 ```sh
-# Setting the default file creation mode to 775
-umask 0002
 
 # Ignoring duplicate commands in the history
 export HISTCONTROL=ignoredups
