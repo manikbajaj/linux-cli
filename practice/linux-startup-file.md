@@ -8,7 +8,6 @@ In Ubuntu, `.bashrc` is a crucial startup file used for configuring user-specifi
 As a practice you need to make the following changes to the `.bashrc` file to have the impact listed in the table below
 | Change                             | Impact                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------- |
-| `umask 0002`                       | Sets the default file creation permissions to 775, allowing group write access.   |
 | `export HISTCONTROL=ignoredups`    | Ignores duplicate commands in the history, displaying only unique commands.       |
 | `export HISTSIZE=1000`             | Sets the maximum number of commands to be stored in the history to 1000.          |
 | `alias l.='ls -d .* --color=auto'` | Creates a shortcut `l.` to list only hidden files with colorized output.          |
