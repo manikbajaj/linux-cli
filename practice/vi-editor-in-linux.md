@@ -40,8 +40,3 @@ This practice exercise is aimed at reinforcing your understanding and proficienc
 2. Switch between the two files and make random edits.
 3. Save the changes to both files.
 
-## Bonus Task:
-1. Create a third file named `bonus_file.txt` in VI editor.
-2. Execute named buffer operations to copy and paste content between `bonus_file.txt`, `practice_file.txt`, and `sample_file.txt`.
-3. Detail the commands used and submit the edited files along with the descriptions.
-
