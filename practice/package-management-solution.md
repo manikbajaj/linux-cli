@@ -77,7 +77,7 @@
 2. To remove `nano` (if installed):
 
    ```bash
-   sudo apt remove nano
+   sudo apt remove git
    ```
 
 3. To list and ensure the packages were removed:
