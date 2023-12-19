@@ -30,7 +30,7 @@ You are setting up a new Linux workstation for software development, and you nee
 ## Task 5: Removing Packages
 
 1. Realizing that you prefer other text editors over `vim`, remove the `vim` package.
-2. Also, remove the package `nano` if it's installed.
+2. Also, remove the package `git` if it's installed.
 3. After removal, ensure that the packages were indeed removed by listing the installed packages.
 
 ## Task 6: Clean-up
