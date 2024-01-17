@@ -30,7 +30,6 @@ This exercise is designed to reinforce your knowledge of the `locate` command an
 1. Find all empty files within the `/var/log` directory.
 2. Use the `find` command to identify all files that have been modified more than 7 days ago but less than 14 days ago in the `/home` directory.
 3. Locate files in the `/tmp` directory that are not owned by the current user (replace "current user" with your actual username if necessary).
-4. Search for files across the entire system that have the SUID bit set and are executable.
 
 ### Bonus Challenge
 
