@@ -64,11 +64,6 @@ find /tmp -type f ! -user $(whoami)
 
 Replace `$(whoami)` with the actual username if necessary.
 
-4. **Search for files with the SUID bit set and are executable:**
-
-```bash
-find / -type f -perm -4000 -exec ls -l {} \;
-```
 
 ## Bonus Challenge
 
