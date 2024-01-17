@@ -27,7 +27,7 @@ locate httpd | grep '\.conf$'
 1. **List all directories named `config` within `/etc`:**
 
 ```bash
-find /etc -type d -name 'config'
+find /etc -type f -name *.conf
 ```
 
 2. **Find all regular files larger than 5MB not accessed in the last 30 days:**
