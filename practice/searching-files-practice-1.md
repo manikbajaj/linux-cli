@@ -21,7 +21,7 @@ This exercise is designed to reinforce your knowledge of the `locate` command an
 
 ### Task 2: Find Command - Type and Size Tests
 
-1. Use the `find` command to list all directories named `config` within `/etc`.
+1. Use the `find` command to list all files that end with `.conf` within `/etc`.
 2. Find all regular files within your home directory that are larger than 5MB and have not been accessed in the last 30 days.
 3. Search for all block device files in the `/dev` directory.
 
