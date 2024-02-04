@@ -1,4 +1,4 @@
-# linux-cli
+# Linux Command Line For Developers Masterclass
 
 # Navigate Repository Contents
 
